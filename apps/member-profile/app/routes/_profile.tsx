@@ -13,7 +13,7 @@ import {
 } from 'react-feather';
 
 import { getResumeBook } from '@oyster/core/resumes';
-import { Dashboard, Divider } from '@oyster/ui';
+import { Dashboard, Divider, Theme, useTheme } from '@oyster/ui';
 
 import { Route } from '@/shared/constants';
 import { ensureUserAuthenticated } from '@/shared/session.server';
@@ -36,6 +36,13 @@ export async function loader({ request }: LoaderFunctionArgs) {
 
 export default function ProfileLayout() {
   const { resumeBook } = useLoaderData<typeof loader>();
+  const [, setTheme] = useTheme();
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) =>
+      prevTheme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT
+    );
+  };
 
   return (
     <Dashboard>
@@ -44,7 +51,6 @@ export default function ProfileLayout() {
           <Dashboard.ColorStackLogo />
           <Dashboard.CloseMenuButton />
         </div>
-
         <Dashboard.Navigation>
           <Dashboard.NavigationList>
             {!!resumeBook && (
@@ -112,7 +118,7 @@ export default function ProfileLayout() {
             />
           </Dashboard.NavigationList>
         </Dashboard.Navigation>
-
+        <button onClick={toggleTheme}>Toggle</button>;
         <Dashboard.LogoutForm />
       </Dashboard.Sidebar>
 
