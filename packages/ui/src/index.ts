@@ -4,6 +4,7 @@ export { Checkbox } from './components/checkbox';
 export { Combobox, ComboboxInput, ComboboxItem } from './components/combobox';
 export type { ComboboxProps } from './components/combobox';
 export { ComboboxPopover } from './components/combobox-popover';
+export { Theme, ThemeProvider, useTheme } from './utils/theme-provider';
 export { Dashboard } from './components/dashboard';
 export { DatePicker } from './components/date-picker';
 export { Divider } from './components/divider';
