@@ -11,7 +11,7 @@ import {
 import { withSentry } from '@sentry/remix';
 
 import { buildMeta } from '@oyster/core/remix';
-import { Toast } from '@oyster/ui';
+import { cx, ThemeProvider, Toast, useTheme } from '@oyster/ui';
 import uiStylesheet from '@oyster/ui/index.css?url';
 
 import { ENV } from '@/shared/constants.server';
@@ -57,9 +57,10 @@ export async function loader({ request }: LoaderFunctionArgs) {
 
 function App() {
   const { env, toast } = useLoaderData<typeof loader>();
+  const [theme] = useTheme();
 
   return (
-    <html lang="en">
+    <html lang="en" className={cx(theme)}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
