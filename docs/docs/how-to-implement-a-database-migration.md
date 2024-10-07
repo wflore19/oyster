@@ -13,13 +13,14 @@ database. Kysely also supports classic "up"/"down" migrations.
 ## Where Our Migrations Live
 
 All of our database migrations live in our `@oyster/db` package, specifically
-[here](../packages/db/src/migrations).
+[here](https://github.com/colorstackorg/oyster/tree/main/packages/db/src/migrations).
 
 ## How to Run Migrations
 
-We have a [`migrate`](../packages/db/src/scripts/migrate.ts) script, which
-effectively executes any migrations that haven't been executed yet. To run this
-script:
+We have a
+[`migrate`](https://github.com/colorstackorg/oyster/blob/main/packages/db/src/scripts/migrate.ts)
+script, which effectively executes any migrations that haven't been executed
+yet. To run this script:
 
 ```sh
 yarn db:migrate

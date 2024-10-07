@@ -9,9 +9,8 @@ using your own email account!
 
 ## Environment Variables
 
-Our main objective is to set the following environment variables in the
-[Admin Dashboard](../apps/admin-dashboard/.env), [API](../apps/api/.env), and
-[Member Profile](../apps/member-profile/.env):
+Our main objective is to set the following environment variables in the Admin
+Dashboard, API, and Member Profile:
 
 ```
 SMTP_HOST
@@ -90,8 +89,12 @@ Note: For Step 5, we recommend that you name your app password
 Now that we have our app password, we're ready to update our environment
 variables.
 
-In [Admin Dashboard](../apps/admin-dashboard/.env), [API](../apps/api/.env), and
-[Member Profile](../apps/member-profile/.env), set the following:
+In
+[Admin Dashboard](https://github.com/colorstackorg/oyster/blob/main/apps/admin-dashboard/.env.example),
+[API](https://github.com/colorstackorg/oyster/blob/main/apps/api/.env.example),
+and
+[Member Profile](https://github.com/colorstackorg/oyster/blob/main/apps/member-profile/.env.example),
+set the following:
 
 ```
 SMTP_HOST=smtp.gmail.com
