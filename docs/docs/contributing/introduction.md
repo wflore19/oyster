@@ -19,11 +19,10 @@ members. ❤️
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Your First PR](#your-first-pr)
-- [Deciding What to Work On](#deciding-what-to-work-on)
-- [Making a Pull Request](#making-a-pull-request)
-- [Enabling Integrations](#enabling-integrations)
+- [Getting Started](./getting-started.md)
+- [Your First PR](./your-first-pull-request.md)
+- [Deciding What to Work On](./deciding-what-to-work-on.md)
+- [Making a Pull Request](./making-a-pull-request.md)
 - [License](#license)
 
 ## License
