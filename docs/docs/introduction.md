@@ -114,7 +114,7 @@ file as an example. For a full list on what we can configure, see
 
 ## Contributing
 
-Please see our [contributing guide](./category/contributing)! 👋
+Please see our [contributing guide](./contributing/introduction.md)! 👋
 
 A heartfelt thanks to our ColorStack members for their contributions! 🙏
 
