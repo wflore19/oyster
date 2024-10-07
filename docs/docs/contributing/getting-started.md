@@ -87,7 +87,8 @@ Follow these steps in order to get started with contributing to Oyster!
     services such as Google for authentication. You shouldn't need to enable
     these integrations unless you're working on a feature that touches that
     service, but in case you need to enable an integration, please see the
-    [How to Enable Integrations](./how-to-enable-integrations.md) documentation.
+    [How to Enable Integrations](../how-to-enable-integrations.md)
+    documentation.
 
 11. Start your Postgres database and Redis store:
 

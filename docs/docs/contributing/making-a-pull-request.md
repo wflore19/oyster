@@ -41,6 +41,6 @@ Some things to keep in mind when making a pull request:
 ## Enabling Integrations
 
 - To enable any of our 3rd party integrations in development, please see the
-  [How to Enable Integrations](./how-to-enable-integrations.md) documentation.
+  [How to Enable Integrations](../how-to-enable-integrations.md) documentation.
 - To enable sending emails, please see the
-  [How to Enable Emails](./how-to-enable-emails) documentation.
+  [How to Enable Emails](../how-to-enable-emails) documentation.

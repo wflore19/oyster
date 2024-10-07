@@ -9,7 +9,7 @@ sidebar_position: 1
 <p align="center"><b>Oyster</b>: The open-source software that powers the ColorStack community experience. ✊🏿✊🏾✊🏽✊🏼</p>
 
 <h4 align="center">
-  <a href="./CONTRIBUTING">How to Contribute</a> |
+  <a href="./category/contributing">How to Contribute</a> |
   <a href="https://colorstack.org">Website</a> |
   <a href="https://app.colorstack.io/apply">Family Application</a>
 </h4>
@@ -114,7 +114,7 @@ file as an example. For a full list on what we can configure, see
 
 ## Contributing
 
-Please see our [contributing guide](./CONTRIBUTING.md)! 👋
+Please see our [contributing guide](./category/contributing)! 👋
 
 A heartfelt thanks to our ColorStack members for their contributions! 🙏
 
