@@ -18,14 +18,16 @@ sidebar_position: 1
 
 ## Applications
 
-- [**Member Profile**](./apps/member-profile/package.json) - Serves as the home
-  for a ColorStack member, allowing them to manage their information, find and
-  connect with other members, as well as events and gamification.
-- [**Admin Dashboard**](./apps/admin-dashboard/package.json) - An internal
-  dashboard that the ColorStack team uses to manage important workflows like
-  application review.
-- [**API**](./apps/api/package.json) - Handles all background jobs as well as
-  any webhook integrations that we have with external services.
+- [**Member Profile**](https://github.com/colorstackorg/oyster/blob/main/apps/member-profile/package.json) -
+  Serves as the home for a ColorStack member, allowing them to manage their
+  information, find and connect with other members, as well as events and
+  gamification.
+- [**Admin Dashboard**](https://github.com/colorstackorg/oyster/blob/main/apps/admin-dashboard/package.json) -
+  An internal dashboard that the ColorStack team uses to manage important
+  workflows like application review.
+- [**API**](https://github.com/colorstackorg/oyster/blob/main/apps/api/package.json) -
+  Handles all background jobs as well as any webhook integrations that we have
+  with external services.
 
 ## Understanding the Codebase
 
@@ -93,7 +95,8 @@ workflow that runs, which can block a PR from being merged if certain checks
 don't pass.
 
 For more information on how that CI pipeline works, see
-[this](./.github/workflows/ci.yml) file.
+[this](https://github.com/colorstackorg/oyster/blob/main/.github/workflows/ci.yml)
+file.
 
 ### Deployment
 
@@ -104,8 +107,9 @@ version of our applications.
 
 Each application has a `railway.json` file where we can configure certain
 settings and instructions so Railway knows _how and when_ to build/start our
-application. See [this](./apps/api/railway.json) file as an example. For a full
-list on what we can configure, see
+application. See
+[this](https://github.com/colorstackorg/oyster/blob/main/apps/api/railway.json)
+file as an example. For a full list on what we can configure, see
 [here](https://docs.railway.app/reference/config-as-code#configurable-settings).
 
 ## Contributing
