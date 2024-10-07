@@ -1,0 +1,10 @@
+{
+  "extends": "@oyster/tsconfig/base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler"
+  }
+}

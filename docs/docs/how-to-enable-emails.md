@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # How to Enable Emails
 
 By the end of this guide, you should be able to send emails in our applications
