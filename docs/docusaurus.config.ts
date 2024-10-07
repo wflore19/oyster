@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Oyster Documentation',
+  title: 'Oyster',
   tagline: 'Documentation for the Oyster project',
   favicon: 'img/favicon.ico',
 
@@ -64,7 +64,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Oyster Documentation',
+      title: 'Oyster',
       logo: {
         alt: 'ColorStack Logo',
         src: 'img/favicon.ico',
@@ -76,7 +76,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/colorstackorg/oyster',
           label: 'GitHub',
