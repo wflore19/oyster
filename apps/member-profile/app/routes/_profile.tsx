@@ -36,7 +36,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
 
 export default function ProfileLayout() {
   const { resumeBook } = useLoaderData<typeof loader>();
-  const [, setTheme] = useTheme();
+  const [theme, setTheme] = useTheme();
 
   const toggleTheme = () => {
     setTheme((prevTheme) =>
@@ -118,7 +118,7 @@ export default function ProfileLayout() {
             />
           </Dashboard.NavigationList>
         </Dashboard.Navigation>
-        <button onClick={toggleTheme}>Toggle</button>;
+        <button onClick={toggleTheme}>{theme}</button>
         <Dashboard.LogoutForm />
       </Dashboard.Sidebar>
 

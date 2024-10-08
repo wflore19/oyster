@@ -89,4 +89,12 @@ function App() {
   );
 }
 
-export default withSentry(App);
+function AppWithTheme() {
+  return (
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  );
+}
+
+export default withSentry(AppWithTheme);

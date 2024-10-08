@@ -34,3 +34,9 @@ export function useTheme() {
 
   return context;
 }
+
+const themes: Array<Theme> = Object.values(Theme);
+
+export function isTheme(value: unknown): value is Theme {
+  return typeof value === 'string' && themes.includes(value as Theme);
+}
