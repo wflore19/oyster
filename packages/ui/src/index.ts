@@ -8,10 +8,28 @@ export { Dashboard } from './components/dashboard';
 export { DatePicker } from './components/date-picker';
 export { Divider } from './components/divider';
 export { Dropdown } from './components/dropdown';
+export {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuCheckboxItem,
+  DropdownMenuRadioItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuGroup,
+  DropdownMenuPortal,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuRadioGroup,
+} from './components/dropdown-menu';
 export { ExistingSearchParams } from './components/existing-search-params';
 export { MB_IN_BYTES, FileUploader } from './components/file-uploader';
 export { Form, getErrors, InputField, validateForm } from './components/form';
 export type { DescriptionProps, FieldProps } from './components/form';
+export { FilterPopover } from './components/filterpopover';
 export { IconButton, getIconButtonCn } from './components/icon-button';
 export { Input, PhoneNumberInput, getInputCn } from './components/input';
 export type { InputProps } from './components/input';
@@ -29,6 +47,7 @@ export type { MultiComboboxProps } from './components/multi-combobox';
 export { Pagination } from './components/pagination';
 export { Pill, getPillCn } from './components/pill';
 export type { PillProps } from './components/pill';
+export { Popover, PopoverTrigger, PopoverContent } from './components/popup';
 export { ProfilePicture } from './components/profile-picture';
 export { Public } from './components/public';
 export { Radio } from './components/radio';

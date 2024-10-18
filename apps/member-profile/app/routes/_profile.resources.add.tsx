@@ -20,6 +20,7 @@ import { addResource } from '@oyster/core/resources/server';
 import {
   Button,
   Divider,
+  FilterPopover,
   Form,
   getErrors,
   MB_IN_BYTES,
@@ -129,6 +130,25 @@ export default function AddResourceModal() {
           <ResourceDescriptionField
             error={errors.description}
             name={keys.description}
+          />
+          <FilterPopover
+            items={[
+              'Apple',
+              'Banana',
+              'Cherry',
+              'Date',
+              'Elderberry',
+              'Fig',
+              'Grape',
+              'Honeydew',
+              'Kiwi',
+              'Lemon',
+              'Mango',
+              'Nectarine',
+              'Orange',
+              'Papaya',
+              'Quince',
+            ]}
           />
           <ResourceTagsField error={errors.tags} name={keys.tags} />
           <Divider />
